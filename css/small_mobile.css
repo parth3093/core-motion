@@ -1,0 +1,269 @@
+@media (max-width: 480px) {
+  .hero h1 {
+    font-size: clamp(3rem, 15vw, 4rem);
+  }
+
+  .hero-subtitle {
+    letter-spacing: 6px;
+  }
+
+  .hero-description {
+    font-size: 0.95rem;
+  }
+
+  .brand-logo {
+    font-size: 1.3rem;
+  }
+
+  .logo-ring {
+    width: 20px;
+    height: 20px;
+  }
+
+  /* Meet Chandni */
+  .about-section {
+    padding: 90px 0;
+  }
+
+  .about-title {
+    font-size: 2.3rem;
+
+    line-height: 1.2;
+  }
+
+  .about-subtitle {
+    font-size: 0.75rem;
+  }
+
+  .about-text {
+    font-size: 0.95rem;
+  }
+
+  .credential-item p {
+    font-size: 0.95rem;
+  }
+
+  /* About story */
+  .story-section {
+    padding: 80px 0;
+  }
+
+  .story-title {
+    font-size: 2rem;
+
+    letter-spacing: 3px;
+  }
+
+  .story-text {
+    font-size: 0.95rem;
+  }
+
+  .services-section {
+    padding: 80px 0;
+  }
+
+  .services-title {
+    font-size: 2rem;
+  }
+
+  .service-card {
+    padding: 26px 20px;
+  }
+
+  .service-card h3 {
+    font-size: 1.6rem;
+  }
+
+  .service-line {
+    width: 90px;
+  }
+
+  .service-description {
+    font-size: 0.9rem;
+  }
+
+  .service-list li {
+    font-size: 0.88rem;
+
+    line-height: 1.6;
+  }
+
+  .service-list li::before {
+    width: 6px;
+
+    height: 6px;
+
+    margin-top: 10px;
+  }
+
+  .studio-section {
+    padding: 80px 0;
+  }
+
+  .studio-title {
+    font-size: 2rem;
+  }
+
+  .studio-right p {
+    font-size: 0.9rem;
+
+    line-height: 1.7;
+  }
+
+  .studio-slider img {
+    height: 250px;
+  }
+
+  .studio-controls {
+    gap: 14px;
+  }
+
+  .studio-prev,
+  .studio-next {
+    width: 40px;
+
+    height: 40px;
+
+    font-size: 0.85rem;
+  }
+
+  .testimonial-section {
+    padding: 80px 0;
+  }
+
+  .testimonial-title {
+    font-size: 2rem;
+  }
+
+  .testimonial-card {
+    min-height: 260px;
+
+    padding: 24px 20px;
+  }
+
+  .testimonial-stars {
+    font-size: 1rem;
+  }
+
+  .testimonial-text {
+    font-size: 1.05rem;
+
+    line-height: 1.65;
+  }
+
+  .testimonial-card h4 {
+    font-size: 0.85rem;
+  }
+
+  .testimonial-prev,
+  .testimonial-next {
+    width: 40px;
+
+    height: 40px;
+  }
+
+  .testimonial-pagination .swiper-pagination-bullet {
+    width: 8px;
+
+    height: 8px;
+
+    margin: 0 5px !important;
+  }
+
+  .cta-section {
+    padding: 80px 0;
+  }
+
+  .cta-title {
+    font-size: 1.9rem;
+
+    line-height: 1.5;
+  }
+
+  .cta-content .section-tag {
+    margin-bottom: 32px;
+  }
+
+  .cta-content .btn {
+    max-width: 100%;
+  }
+
+  .contact-section {
+    padding: 80px 0 35px;
+  }
+
+  .contact-title {
+    font-size: 2rem;
+  }
+
+  .contact-item {
+    padding-left: 14px;
+  }
+
+  .contact-item h4 {
+    font-size: 0.8rem;
+
+    letter-spacing: 2.5px;
+  }
+
+  .contact-item a,
+  .contact-item p {
+    font-size: 1.05rem;
+
+    line-height: 1.45;
+  }
+
+  .footer-divider {
+    margin: 50px 0 24px;
+  }
+
+  .footer p {
+    font-size: 0.8rem;
+  }
+
+  .story-section {
+    padding: 80px 0;
+  }
+
+  .story-title {
+    font-size: 2rem;
+  }
+
+  .story-subtitle {
+    font-size: 0.82rem;
+
+    letter-spacing: 1.5px;
+  }
+
+  .story-content p {
+    font-size: 0.92rem;
+
+    line-height: 1.8;
+  }
+
+  .story-content h3 {
+    font-size: 1.35rem;
+
+    margin-top: 35px;
+  }
+
+  .story-content ul {
+    padding-left: 18px;
+  }
+
+  .story-content li {
+    font-size: 0.9rem;
+
+    line-height: 1.7;
+  }
+
+  .story-content blockquote {
+    font-size: 1.2rem;
+
+    line-height: 1.6;
+
+    padding-left: 16px;
+
+    margin: 35px 0;
+  }
+}

@@ -1,0 +1,33 @@
+:root {
+  /* Colors */
+  --clr-primary: #d4af37;
+  --clr-primary-light: #d4af37ea;
+  --clr-dark: #060606;
+  --clr-white: #ffffff;
+
+  /* Text */
+  --clr-text: rgba(255, 255, 255, 0.78);
+  --clr-border: rgba(255, 255, 255, 0.15);
+
+  /* Fonts */
+  --ff-heading: "Cormorant Garamond", serif;
+  --ff-body: "Inter", sans-serif;
+
+  /* Container */
+  --container-width: 1440px;
+  --container-padding: 80px;
+
+  /* Radius */
+  --radius-sm: 12px;
+  --radius-md: 20px;
+
+  /* Transition */
+  --transition: 0.4s ease;
+
+  .container {
+    width: 100%;
+    max-width: var(--container-width);
+    margin-inline: auto;
+    padding-inline: var(--container-padding);
+  }
+}

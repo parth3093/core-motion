@@ -1,0 +1,523 @@
+@media (max-width: 768px) {
+  :root {
+    --container-padding: 24px;
+  }
+  .header {
+    padding: 22px 0;
+  }
+
+  .logo h2 {
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+  }
+
+  .rehab-line span {
+    width: 49px;
+  }
+  .hero {
+    padding: 150px 0 100px;
+  }
+
+  .hero-subtitle {
+    letter-spacing: 7px;
+    font-size: 0.85rem;
+    margin-bottom: 25px;
+  }
+
+  .hero h1 {
+    font-size: clamp(3.5rem, 13vw, 3rem);
+    line-height: 0.95;
+    margin-bottom: 30px;
+  }
+
+  .hero-description {
+    font-size: 1rem;
+    line-height: 1.8;
+    max-width: 100%;
+  }
+  .hero-buttons {
+    width: 100%;
+    display: flex;
+    gap: 16px;
+  }
+
+  .btn {
+    width: 48%;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .studio-info {
+    width: 100%;
+
+    flex-direction: column;
+
+    align-items: flex-start;
+
+    gap: 18px;
+  }
+
+  .studio-info span {
+    width: 120px;
+  }
+
+  .studio-info p {
+    letter-spacing: 4px;
+
+    font-size: 0.8rem;
+  }
+
+  .studio-info h3 {
+    font-size: 1rem;
+
+    letter-spacing: 3px;
+  }
+
+  .close-menu {
+    top: 10px;
+    right: 28px;
+  }
+  /* Why US */
+  .why-us {
+    padding: 110px 0;
+  }
+
+  .section-tag {
+    font-size: 0.75rem;
+
+    letter-spacing: 4px;
+
+    margin-bottom: 25px;
+  }
+
+  .why-content h2 {
+    font-size: clamp(2.4rem, 8vw, 3.2rem);
+
+    line-height: 1.25;
+  }
+
+  .why-grid {
+    grid-template-columns: 1fr;
+
+    gap: 25px;
+  }
+
+  .why-item {
+    gap: 18px;
+
+    padding-bottom: 22px;
+  }
+
+  .why-item span {
+    font-size: 1.1rem;
+  }
+
+  .why-item p {
+    font-size: 1.35rem;
+
+    line-height: 1.35;
+  }
+
+  /* Meet Chandni */
+  .about-section {
+    padding: 110px 0;
+  }
+
+  .about-wrapper {
+    gap: 50px;
+  }
+
+  .about-image {
+    width: 100%;
+  }
+
+  .about-content .section-tag {
+    font-size: 0.75rem;
+
+    letter-spacing: 4px;
+
+    margin-bottom: 20px;
+  }
+
+  .about-title {
+    font-size: 2.8rem;
+
+    margin-bottom: 20px;
+  }
+
+  .about-subtitle {
+    font-size: 0.85rem;
+
+    letter-spacing: 3px;
+  }
+
+  .about-line {
+    width: 90px;
+
+    margin: 20px 0 30px;
+  }
+
+  .about-text {
+    font-size: 1rem;
+
+    line-height: 1.8;
+
+    letter-spacing: 1px;
+
+    margin-bottom: 25px;
+  }
+
+  .credentials {
+    margin-top: 40px;
+  }
+
+  .credentials h4 {
+    font-size: 0.9rem;
+
+    margin-bottom: 25px;
+  }
+
+  .credential-grid {
+    grid-template-columns: 1fr;
+
+    gap: 22px;
+  }
+
+  .credential-item {
+    gap: 15px;
+  }
+
+  .credential-item p {
+    font-size: 1.05rem;
+
+    letter-spacing: 1px;
+  }
+  /* About story */
+  .story-section {
+    padding: 100px 0;
+  }
+
+  .story-title {
+    font-size: 2.5rem;
+
+    letter-spacing: 4px;
+
+    margin-bottom: 20px;
+  }
+
+  .story-line {
+    width: 60px;
+
+    margin-bottom: 30px;
+  }
+
+  .story-text {
+    font-size: 1rem;
+
+    line-height: 2;
+
+    letter-spacing: 1px;
+
+    margin-bottom: 20px;
+  }
+
+  .services-section {
+    padding: 100px 0;
+  }
+
+  .services-heading {
+    margin-bottom: 45px;
+  }
+
+  .services-title {
+    font-size: 2.5rem;
+
+    margin-top: 12px;
+  }
+
+  .services-grid {
+    grid-template-columns: 1fr;
+
+    gap: 22px;
+  }
+
+  .service-card:last-child {
+    grid-column: auto;
+  }
+
+  .service-card {
+    min-height: auto;
+
+    padding: 32px 24px;
+  }
+
+  .service-card h3 {
+    font-size: 1.8rem;
+
+    margin-bottom: 20px;
+  }
+
+  .service-line {
+    width: 120px;
+
+    margin-bottom: 22px;
+  }
+
+  .service-description {
+    font-size: 0.98rem;
+
+    line-height: 1.75;
+
+    letter-spacing: 0.8px;
+
+    margin-bottom: 24px;
+  }
+
+  .service-list li {
+    font-size: 0.95rem;
+
+    letter-spacing: 0.5px;
+
+    margin-bottom: 14px;
+  }
+  .studio-section {
+    padding: 100px 0;
+  }
+
+  .studio-header {
+    gap: 25px;
+
+    margin-bottom: 35px;
+  }
+
+  .studio-title {
+    font-size: 2.4rem;
+
+    line-height: 1.3;
+  }
+
+  .studio-right p {
+    font-size: 0.95rem;
+
+    line-height: 1.8;
+
+    letter-spacing: 0.6px;
+  }
+
+  .studio-slider {
+    border-radius: 4px;
+  }
+
+  .studio-slider img {
+    height: 340px;
+  }
+
+  .studio-controls {
+    margin-top: 24px;
+
+    gap: 18px;
+  }
+
+  .studio-prev,
+  .studio-next {
+    width: 44px;
+
+    height: 44px;
+
+    font-size: 0.95rem;
+  }
+
+  .studio-pagination .swiper-pagination-bullet {
+    width: 8px;
+
+    height: 8px;
+
+    margin: 0 5px !important;
+  }
+
+  .testimonial-section {
+    padding: 100px 0;
+  }
+
+  .testimonial-heading {
+    margin-bottom: 35px;
+  }
+
+  .testimonial-title {
+    font-size: 2.4rem;
+
+    line-height: 1.3;
+  }
+
+  .testimonial-card {
+    min-height: 280px;
+
+    padding: 30px 24px;
+  }
+
+  .testimonial-stars {
+    font-size: 1.1rem;
+
+    letter-spacing: 4px;
+
+    margin-bottom: 18px;
+  }
+
+  .testimonial-text {
+    font-size: 1.2rem;
+
+    line-height: 1.7;
+
+    margin-bottom: 25px;
+  }
+
+  .testimonial-card h4 {
+    font-size: 0.9rem;
+
+    letter-spacing: 3px;
+  }
+
+  .testimonial-prev,
+  .testimonial-next {
+    width: 46px;
+
+    height: 46px;
+  }
+
+  .testimonial-prev svg,
+  .testimonial-next svg {
+    width: 16px;
+
+    height: 16px;
+  }
+
+  .cta-section {
+    padding: 100px 0;
+  }
+
+  .cta-title {
+    font-size: 2.35rem;
+
+    line-height: 1.45;
+
+    margin-bottom: 38px;
+  }
+
+  .cta-title span {
+    margin-top: 10px;
+  }
+
+  .cta-content .btn {
+    width: 100%;
+
+    max-width: 280px;
+  }
+  .contact-section {
+    padding: 100px 0 45px;
+  }
+
+  .contact-heading {
+    margin-bottom: 45px;
+  }
+
+  .contact-title {
+    font-size: 2.4rem;
+
+    line-height: 1.35;
+  }
+
+  .contact-grid {
+    grid-template-columns: 1fr;
+
+    gap: 35px;
+  }
+
+  .contact-item {
+    padding-left: 16px;
+  }
+
+  .contact-item h4 {
+    font-size: 0.85rem;
+
+    letter-spacing: 3px;
+
+    margin-bottom: 14px;
+  }
+
+  .contact-item a,
+  .contact-item p {
+    font-size: 1.25rem;
+
+    line-height: 1.5;
+  }
+
+  .footer {
+    flex-direction: column;
+
+    align-items: flex-start;
+
+    gap: 14px;
+  }
+
+  .footer p {
+    font-size: 0.85rem;
+
+    letter-spacing: 1px;
+  }
+
+  .story-section {
+    padding: 100px 0;
+  }
+
+  .story-header {
+    margin-bottom: 40px;
+  }
+
+  .story-title {
+    font-size: 2.35rem;
+
+    line-height: 1.3;
+  }
+
+  .story-subtitle {
+    font-size: 0.9rem;
+
+    letter-spacing: 2px;
+  }
+
+  .story-content p {
+    font-size: 0.98rem;
+
+    line-height: 1.85;
+
+    margin-bottom: 22px;
+  }
+
+  .story-content h3 {
+    font-size: 1.55rem;
+
+    margin-top: 40px;
+
+    margin-bottom: 18px;
+  }
+
+  .story-content ul {
+    padding-left: 20px;
+  }
+
+  .story-content li {
+    font-size: 0.95rem;
+
+    line-height: 1.75;
+  }
+
+  .story-content blockquote {
+    font-size: 1.45rem;
+
+    line-height: 1.6;
+
+    margin: 45px 0;
+
+    padding-left: 18px;
+  }
+}
