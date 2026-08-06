@@ -625,6 +625,14 @@ a {
   padding: 0;
 }
 
+.billing-grid {
+  display: grid;
+
+  grid-template-columns: repeat(2, 1fr);
+
+  gap: 30px;
+}
+
 .service-list li {
   color: rgba(255, 255, 255, 0.82);
   font-size: 1.12rem;
@@ -1407,4 +1415,23 @@ a {
   line-height: 1.6;
 
   font-style: italic;
+}
+
+.services-section .btn {
+  width: 15rem;
+  margin-top: 1rem;
+  padding: 22px 50px;
+  letter-spacing: 6px;
+  font-size: 0.9rem;
+  transition: var(--transition);
+}
+
+.services-section .btn-primary {
+  background: var(--clr-primary);
+  color: #000;
+}
+
+.services-section .btn-primary:hover {
+  transform: translateY(-5px);
+  background: var(--clr-primary-light);
 }
